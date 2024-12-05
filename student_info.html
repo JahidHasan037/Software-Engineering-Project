@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSMRSTU Student Login Portal</title>
+</head>
+<body>
+    <!-- Login Form -->
+    <div class="login-container" id="loginForm">
+        <h1>Student Login</h1>
+        <input type="text" id="studentId" placeholder="Enter Student ID" required>
+        <input type="password" id="password" placeholder="Enter Password" required>
+        <button onclick="login()">Login</button>
+    </div>
+
+    <!-- Student Info -->
+    <div class="info-container" id="studentInfo">
+        <h2>Student Information</h2>
+        <p><strong>Name:</strong> <span id="name"></span></p>
+        <p><strong>Student ID:</strong> <span id="id"></span></p>
+        <p><strong>Department:</strong> <span id="department"></span></p>
+        <p><strong>Credits Completed:</strong> <span id="creditsCompleted"></span></p>
+        <p><strong>Credits Remaining:</strong> <span id="creditsRemaining"></span></p>
+        <p><strong>CGPA:</strong> <span id="cgpa"></span></p>
+    </div>
+
+   <script src="javascirpt_ad/student_info.js"></script> 
+</body>
+</html>
