@@ -1,7 +1,7 @@
 
         // Sample Data for Students
         const students = [
-            { id: "20CSE001", password: "pass12345", name: "MD.Al Amin Hossain", department: "CSE", creditsCompleted: 96, creditsRemaining: 24, cgpa: 3.75 },
+            { id: "20CSE001", password: "pass12345", name: "MD.Al Amin Hossain", department: "CSE", creditsCompleted: 96, creditsRemaining: 24, cgpa: 3.75},
             { id: "20CSE002", password: "pass12345", name: "MD.Sihab Uddin", department: "CSE", creditsCompleted: 88, creditsRemaining: 32, cgpa: 3.60 },
             { id: "20CSE003", password: "pass12345", name: "Zahid Al Mahmud", department: "CSE", creditsCompleted: 100, creditsRemaining: 20, cgpa: 3.85 },
             { id: "20CSE004", password: "pass12345", name: "Amir Hamza Anik", department: "CSE", creditsCompleted: 96, creditsRemaining: 24, cgpa: 3.75 },
